@@ -26,6 +26,7 @@ const deploy = async () => {
   // Get list of accounts
   const accounts = await web3.eth.getAccounts();
 
+  // Assign exhibition interface
   const ABI = interface;
 
   // Create a contract with exhibition ABI, then deply with bytecode
